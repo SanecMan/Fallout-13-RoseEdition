@@ -146,12 +146,12 @@
 	if (gameover)
 		dat += "<center><b><a href='byond://?src=[REF(src)];newgame=1'>New Game</a>"
 	else
-		dat += "<center><b><a href='byond://?src=[REF(src)];attack=1'>Attack</a> | "
-		dat += "<a href='byond://?src=[REF(src)];heal=1'>Heal</a> | "
-		dat += "<a href='byond://?src=[REF(src)];charge=1'>Recharge Power</a>"
-
+		dat += "<center><b><a href='byond://?src=[REF(src)];attack=1'>Стрелять</a> | "
+		dat += "<a href='byond://?src=[REF(src)];heal=1'>Подлечиться</a> | "
+		dat += "<a href='byond://?src=[REF(src)];charge=1'>Перезарядить</a>"
+//Перевести
 	dat += "</b></center>"
-	var/datum/browser/popup = new(user, "arcade", "Space Villain 2000")
+	var/datum/browser/popup = new(user, "arcade", "Fallout - Lone Wanderer")
 	popup.set_content(dat)
 	popup.set_title_image(user.browse_rsc_icon(icon, icon_state))
 	popup.open()
