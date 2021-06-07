@@ -161,39 +161,3 @@
 
 /datum/quirk/family_heirloom/on_clone(data)
 	heirloom = data
-
-/datum/quirk/nearsighted //t. errorage
-	name = "Близорукость"
-	desc = "У вас проблемы со зрением, из-за чего у вас появляется пара очков для глаз без рецепта."
-	value = 0
-	gain_text = "<span class='danger'>Глаза болят.</span>"
-	lose_text = "<span class='notice'>Начинаю нормально видеть.</span>"
-	medical_record_text = "Пациенту требуются очки по рецепту, чтобы противодействовать близорукости."
-
-/datum/quirk/nearsighted/add()
-	quirk_holder.become_nearsighted(ROUNDSTART_TRAIT)
-
-/datum/quirk/nearsighted/on_spawn()
-	var/mob/living/carbon/human/H = quirk_holder
-	var/obj/item/clothing/glasses/regular/glasses = new(get_turf(H))
-	H.put_in_hands(glasses)
-	H.equip_to_slot_if_possible(glasses, SLOT_GLASSES)
-	H.regenerate_icons() //this is to remove the inhand icon, which persists even if it's not in their hands
-
-/datum/quirk/monochromatic
-	name = "Монохромность"
-	desc = "У вас полный дальтонизм и воспринимаете почти весь мир в черно-белых тонах."
-	value = 0
-	medical_record_text = "Пациент страдает ахроматопсией и видит весь мир в чёрно-белых оттенках."
-
-/datum/quirk/monochromatic/add()
-	quirk_holder.add_client_colour(/datum/client_colour/monochrome)
-
-/datum/quirk/monochromatic/post_add()
-	if(quirk_holder.mind.assigned_role == "Detective") //Добавить сюда шерифа
-		to_chat(quirk_holder, "<span class='boldannounce'>Жизнь была прекрасна... Закат освещает прекрасный летний вечер, в воздухе висит запах свежескошенной травы с газонов, где-то смеются и кричат дети. Дом за рекой... где тебя ждут красавица-жена и чудесная маленькая дочка. Настоящий воздушный замок, ставший реальностью. Вот только если бы воздушные замки не разрушались так быстро, пока на них не смотрят.</span>")
-		quirk_holder.playsound_local(quirk_holder, 'sound/ambience/ambidet1.ogg', 50, FALSE)
-
-/datum/quirk/monochromatic/remove()
-	if(quirk_holder)
-		quirk_holder.remove_client_colour(/datum/client_colour/monochrome)
