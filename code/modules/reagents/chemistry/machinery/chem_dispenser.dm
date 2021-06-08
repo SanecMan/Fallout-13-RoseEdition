@@ -425,7 +425,7 @@
 	working_state = null
 	nopower_state = null
 	dispensable_reagents = list(
-		"rad_water",
+		"water",
 		"ice",
 		"coffee",
 		"cream",
