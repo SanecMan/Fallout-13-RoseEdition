@@ -160,4 +160,4 @@ obj/structure/reagent_dispensers/barrel/explosive/bullet_act(obj/item/projectile
 	name = "water barrel"
 	desc = "A barrel full of chemical water."
 	tank_volume = 800
-	reagent_id = "h2o"
+	reagent_id = "water"

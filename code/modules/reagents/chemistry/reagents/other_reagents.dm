@@ -145,8 +145,8 @@
 	M.adjustToxLoss(0.5)
 
 /*/datum/reagent/chem_water //Вода из хим. диспенсера
-	name = "H2O"
-	id = "h2o"
+	name = "water"
+	id = "water"
 	description = "An ubiquitous chemical substance that is composed of hydrogen and oxygen. Fresh."
 	color = "#ffffff"
 	taste_description = "water"
@@ -1108,7 +1108,7 @@
 	color = "#9E6B38" // rgb: 158, 107, 56
 	taste_description = "metal"
 
-/datum/reagent/foaming_agent// Metal foaming agent. This is lithium hydride. Add other recipes (e.g. LiH + H2O -> LiOH + H2) eventually.
+/datum/reagent/foaming_agent// Metal foaming agent. This is lithium hydride. Add other recipes (e.g. LiH + water -> LiOH + H2) eventually.
 	name = "Foaming agent"
 	id = "foaming_agent"
 	description = "An agent that yields metallic foam when mixed with light metal and a strong acid."

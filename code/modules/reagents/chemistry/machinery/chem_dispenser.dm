@@ -39,7 +39,7 @@
 		"copper",
 		"mercury",
 		"radium",
-		"h2o",
+		"water",
 		"ethanol",
 		"sugar",
 		"sacid",
