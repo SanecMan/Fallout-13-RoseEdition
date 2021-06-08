@@ -29,7 +29,7 @@
 		species.liked_food &= ~PINEAPPLE
 
 /datum/quirk/pineapple_hater
-	name = "Ananas Aversion"
+	name = "Ананасовый Ненавистник"
 	desc = "Ананас зло. Блядь вы реально думаете что ананас вкусный?"
 	value = 0
 	gain_text = "<span class='notice'>Ненавижу ананас.</span>"
@@ -66,39 +66,6 @@
 		var/datum/species/species = H.dna.species
 		species.liked_food = initial(species.liked_food)
 		species.disliked_food = initial(species.disliked_food)
-
-/datum/quirk/prosthetic_limb
-	name = "Протез"
-	desc = "Ваша конечность была заменена на протез."
-	value = 0
-	var/slot_string = "limb"
-
-/datum/quirk/prosthetic_limb/on_spawn()
-	var/limb_slot = pick(BODY_ZONE_L_ARM, BODY_ZONE_R_ARM, BODY_ZONE_L_LEG, BODY_ZONE_R_LEG)
-	var/mob/living/carbon/human/H = quirk_holder
-	var/obj/item/bodypart/old_part = H.get_bodypart(limb_slot)
-	var/obj/item/bodypart/prosthetic
-	switch(limb_slot)
-		if(BODY_ZONE_L_ARM)
-			prosthetic = new/obj/item/bodypart/l_arm/robot/surplus(quirk_holder)
-			slot_string = "left arm"
-		if(BODY_ZONE_R_ARM)
-			prosthetic = new/obj/item/bodypart/r_arm/robot/surplus(quirk_holder)
-			slot_string = "right arm"
-		if(BODY_ZONE_L_LEG)
-			prosthetic = new/obj/item/bodypart/l_leg/robot/surplus(quirk_holder)
-			slot_string = "left leg"
-		if(BODY_ZONE_R_LEG)
-			prosthetic = new/obj/item/bodypart/r_leg/robot/surplus(quirk_holder)
-			slot_string = "right leg"
-	prosthetic.replace_limb(H)
-	qdel(old_part)
-	H.regenerate_icons()
-
-/datum/quirk/prosthetic_limb/post_add()
-	to_chat(quirk_holder, "<span class='boldannounce'>К вашему телу была приделана ''Rob'co [slot_string] surplus'' вместо старой конечности, \
-	используйте провода и сварку вместо мазей и бинтов соответственно. Также протез соединён с кровеносной системой, так что \
-	рекомендуется устранять поломку конечности как можно быстрее.</span>")
 
 /datum/quirk/family_heirloom
 	name = "Семейная Реликвия"
