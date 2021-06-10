@@ -1,66 +1,66 @@
-"bG" = (/obj/machinery/door/window/survival_pod{dir = 8},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"cF" = (/obj/machinery/door/window/survival_pod,/obj/structure/window/reinforced/survival_pod{dir = 9},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"dN" = (/obj/structure/decoration/clock/active,/turf/closed/wall/f13/vault,/area/shuttle/escape)
-"ex" = (/obj/structure/sink/kitchen{dir = 4; icon_state = "sink_alt"; pixel_x = -15; tag = "icon-sink_alt (EAST)"},/obj/machinery/food_cart,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
-"eL" = (/obj/structure/table/abductor{desc = "After YEARS of research, prototyping, and testing, the brotherhood created the sequel to the table. Advanced flat surface technology at work!"; name = "advanced table"},/obj/machinery/computer/shuttle/pod,/obj/structure/window/reinforced/survival_pod{dir = 8},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"fz" = (/obj/machinery/door/window/survival_pod{dir = 1},/obj/structure/window/reinforced/survival_pod{dir = 10},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"gw" = (/obj/effect/spawner/structure/window/survival_pod,/obj/machinery/light/floor,/turf/open/floor/carpet/black,/area/shuttle/escape)
-"gz" = (/obj/structure/fluff/beach_railings{dir = 8},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"gB" = (/turf/closed/wall/f13/vault,/area/shuttle/escape)
-"gW" = (/obj/machinery/light{dir = 4},/obj/structure/table/reinforced,/obj/item/reagent_containers/food/snacks/brahminwellington,/obj/effect/spawner/lootdrop/food,/obj/effect/spawner/lootdrop/food,/obj/effect/spawner/lootdrop/food,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
-"hL" = (/turf/open/floor/plasteel/f13{icon_state = "greenfull"},/area/shuttle/escape)
-"iC" = (/obj/structure/bedsheetbin,/obj/structure/table/reinforced,/turf/open/floor/plasteel/f13{icon_state = "bluefull"},/area/shuttle/escape)
-"kK" = (/obj/machinery/door/window/survival_pod{dir = 1},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"kR" = (/obj/machinery/light{dir = 4},/obj/structure/chair/left{dir = 8},/turf/open/floor/plasteel/f13{icon_state = "greenfull"},/area/shuttle/escape)
-"mB" = (/obj/structure/table/reinforced,/obj/machinery/microwave{icon_state = "stove_act"},/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
-"pD" = (/turf/open/floor/carpet/black,/area/shuttle/escape)
-"qR" = (/obj/structure/chair/comfy/black{dir = 1},/obj/machinery/door/window/survival_pod,/obj/structure/window/reinforced/survival_pod{dir = 8},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"rJ" = (/turf/open/floor/circuit/f13_blue,/area/shuttle/escape)
-"sd" = (/obj/effect/spawner/structure/window/survival_pod,/turf/open/floor/carpet/black,/area/shuttle/escape)
-"te" = (/obj/effect/spawner/structure/window/survival_pod,/obj/structure/curtain{color = "gray"; desc = "lush luxurious velvet curtains from before the war."},/turf/open/floor/f13{icon_state = "floorrustysolid"},/area/shuttle/escape)
-"ug" = (/obj/machinery/light{dir = 8; icon_state = "tube"},/obj/structure/table/reinforced,/obj/machinery/processor/chopping_block,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
-"vO" = (/obj/structure/table/abductor{desc = "After YEARS of research, prototyping, and testing, the brotherhood created the sequel to the table. Advanced flat surface technology at work!"; name = "advanced table"},/obj/machinery/computer/shuttle/pod,/obj/structure/window/reinforced/survival_pod{dir = 4},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"vW" = (/obj/structure/chair/comfy/black{dir = 1},/obj/machinery/door/window/survival_pod,/obj/structure/window/reinforced/survival_pod{dir = 4},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"xI" = (/obj/structure/fluff/beach_railings{dir = 4},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"yK" = (/obj/structure/table/reinforced,/obj/item/kitchen/knife/butcher,/obj/item/kitchen/rollingpin,/obj/item/reagent_containers/food/snacks/dough,/obj/item/reagent_containers/food/snacks/dough,/obj/item/reagent_containers/food/snacks/dough,/obj/item/reagent_containers/food/snacks/dough,/obj/item/reagent_containers/food/snacks/dough,/obj/item/reagent_containers/food/snacks/dough,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
-"Ar" = (/turf/template_noop,/area/template_noop)
-"Bv" = (/obj/structure/bed/pod,/obj/structure/window/reinforced/tinted,/obj/structure/window/reinforced/tinted{dir = 1; icon_state = "twindow"},/obj/structure/curtain{color = "gray"; desc = "lush luxurious velvet curtains from before the war."},/turf/open/floor/plasteel/f13{icon_state = "bluefull"},/area/shuttle/escape)
-"CA" = (/obj/machinery/light{dir = 4},/obj/structure/chair/right{dir = 8},/turf/open/floor/plasteel/f13{icon_state = "greenfull"},/area/shuttle/escape)
-"Fu" = (/obj/machinery/door/window/survival_pod,/turf/open/floor/carpet/black,/area/shuttle/escape)
-"Gg" = (/obj/structure/table/reinforced,/obj/machinery/light/floor,/turf/open/floor/plasteel/f13{icon_state = "bluefull"},/area/shuttle/escape)
-"II" = (/obj/structure/curtain{color = "gray"; desc = "lush luxurious velvet curtains from before the war."},/obj/machinery/door/window/survival_pod,/turf/open/floor/carpet/black,/area/shuttle/escape)
-"Kd" = (/obj/structure/table/reinforced,/obj/item/storage/bag/tray,/obj/item/storage/bag/trash,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
-"Nj" = (/obj/docking_port/mobile/emergency{dwidth = 24; height = 6; name = "Vault emergency shuttle"; width = 25},/turf/closed/wall/f13/vault,/area/shuttle/escape)
-"QI" = (/obj/structure/chair/middle{dir = 8},/turf/open/floor/plasteel/f13{icon_state = "greenfull"},/area/shuttle/escape)
-"UX" = (/obj/structure/chair/comfy/black{dir = 1},/turf/open/floor/carpet/black,/area/shuttle/escape)
-"Vp" = (/obj/effect/spawner/structure/window/survival_pod,/turf/open/floor/f13{icon_state = "floorrustysolid"},/area/shuttle/escape)
-"WL" = (/obj/machinery/door/airlock/shuttle,/turf/open/floor/plasteel/f13{icon_state = "greenfull"},/area/shuttle/escape)
-"YO" = (/obj/structure/table/reinforced,/turf/open/floor/plasteel/f13{icon_state = "bluefull"},/area/shuttle/escape)
+"fV" = (/obj/machinery/light{dir = 8; icon_state = "tube"},/obj/structure/table/reinforced,/obj/machinery/processor/chopping_block,/obj/machinery/light/floor,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
+"gf" = (/obj/structure/sink/kitchen{dir = 4; icon_state = "sink_alt"; pixel_x = -15; tag = "icon-sink_alt (EAST)"},/obj/machinery/food_cart,/obj/machinery/light/floor,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
+"gs" = (/obj/structure/table/reinforced,/obj/machinery/microwave{icon_state = "stove_act"},/obj/machinery/light/floor,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
+"gE" = (/turf/open/floor/carpet/black,/area/shuttle/escape)
+"it" = (/obj/effect/spawner/structure/window/survival_pod,/turf/open/floor/carpet/black,/area/shuttle/escape)
+"iQ" = (/obj/machinery/door/window/survival_pod,/obj/structure/window/reinforced/survival_pod{dir = 9},/turf/open/floor/carpet/black,/area/shuttle/escape)
+"kK" = (/obj/structure/chair/right{dir = 8},/obj/machinery/light/floor,/turf/open/floor/plasteel/f13{icon_state = "greenfull"},/area/shuttle/escape)
+"my" = (/obj/structure/fluff/beach_railings{dir = 4},/turf/open/floor/carpet/black,/area/shuttle/escape)
+"mG" = (/obj/structure/chair/comfy/black{dir = 1},/turf/open/floor/carpet/black,/area/shuttle/escape)
+"oy" = (/obj/structure/table/reinforced,/turf/open/floor/plasteel/f13{icon_state = "bluefull"},/area/shuttle/escape)
+"pF" = (/obj/structure/table/reinforced,/obj/item/storage/bag/tray,/obj/item/storage/bag/trash,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
+"pG" = (/turf/open/floor/plasteel/f13{icon_state = "greenfull"},/area/shuttle/escape)
+"pU" = (/obj/structure/chair/left{dir = 8},/obj/machinery/light/floor,/turf/open/floor/plasteel/f13{icon_state = "greenfull"},/area/shuttle/escape)
+"qc" = (/obj/structure/table/reinforced,/obj/item/kitchen/knife/butcher,/obj/item/kitchen/rollingpin,/obj/item/reagent_containers/food/snacks/dough,/obj/item/reagent_containers/food/snacks/dough,/obj/item/reagent_containers/food/snacks/dough,/obj/item/reagent_containers/food/snacks/dough,/obj/item/reagent_containers/food/snacks/dough,/obj/item/reagent_containers/food/snacks/dough,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
+"rH" = (/obj/structure/table/reinforced,/obj/machinery/light/floor,/turf/open/floor/plasteel/f13{icon_state = "bluefull"},/area/shuttle/escape)
+"sv" = (/obj/docking_port/mobile/emergency{dwidth = 24; height = 6; name = "Vault emergency shuttle"; width = 25},/turf/closed/wall/f13/vault,/area/shuttle/escape)
+"um" = (/obj/structure/chair/comfy/black{dir = 1},/obj/machinery/door/window/survival_pod,/obj/structure/window/reinforced/survival_pod{dir = 8},/turf/open/floor/carpet/black,/area/shuttle/escape)
+"uH" = (/obj/effect/spawner/structure/window/survival_pod,/obj/machinery/light/floor,/turf/open/floor/carpet/black,/area/shuttle/escape)
+"vQ" = (/obj/structure/bed/pod,/obj/structure/curtain{color = "gray"; desc = "lush luxurious velvet curtains from before the war."},/turf/open/floor/plasteel/f13{icon_state = "bluefull"},/area/shuttle/escape)
+"yI" = (/obj/effect/spawner/structure/window/survival_pod,/obj/structure/curtain{color = "gray"; desc = "lush luxurious velvet curtains from before the war."},/turf/open/floor/f13{icon_state = "floorrustysolid"},/area/shuttle/escape)
+"zT" = (/obj/effect/spawner/structure/window/survival_pod,/turf/open/floor/f13{icon_state = "floorrustysolid"},/area/shuttle/escape)
+"CP" = (/obj/structure/fluff/beach_railings{dir = 8},/turf/open/floor/carpet/black,/area/shuttle/escape)
+"Ei" = (/obj/machinery/door/window/survival_pod{dir = 8},/turf/open/floor/carpet/black,/area/shuttle/escape)
+"EZ" = (/turf/template_noop,/area/template_noop)
+"Fm" = (/obj/structure/chair/comfy/black{dir = 1},/obj/machinery/door/window/survival_pod,/obj/structure/window/reinforced/survival_pod{dir = 4},/turf/open/floor/carpet/black,/area/shuttle/escape)
+"GL" = (/turf/closed/wall/f13/vault,/area/shuttle/escape)
+"HR" = (/obj/machinery/door/airlock/shuttle,/turf/open/floor/plasteel/f13{icon_state = "greenfull"},/area/shuttle/escape)
+"IU" = (/obj/machinery/light{dir = 4},/obj/structure/table/reinforced,/obj/item/reagent_containers/food/snacks/brahminwellington,/obj/effect/spawner/lootdrop/food,/obj/effect/spawner/lootdrop/food,/obj/effect/spawner/lootdrop/food,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/effect/spawner/lootdrop/three_course_meal,/obj/machinery/light/floor,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
+"JZ" = (/obj/machinery/door/window/survival_pod{dir = 1},/obj/structure/window/reinforced/survival_pod{dir = 10},/turf/open/floor/carpet/black,/area/shuttle/escape)
+"Ki" = (/obj/machinery/door/window/survival_pod{dir = 1},/turf/open/floor/carpet/black,/area/shuttle/escape)
+"Lk" = (/obj/machinery/door/window/survival_pod,/turf/open/floor/carpet/black,/area/shuttle/escape)
+"Ng" = (/obj/structure/bedsheetbin,/obj/structure/table/reinforced,/turf/open/floor/plasteel/f13{icon_state = "bluefull"},/area/shuttle/escape)
+"NR" = (/obj/structure/table/abductor{desc = "After YEARS of research, prototyping, and testing, the brotherhood created the sequel to the table. Advanced flat surface technology at work!"; name = "advanced table"},/obj/structure/window/reinforced/survival_pod{dir = 4},/obj/machinery/computer/shuttle,/turf/open/floor/carpet/black,/area/shuttle/escape)
+"QS" = (/turf/open/floor/circuit/f13_blue,/area/shuttle/escape)
+"Sd" = (/obj/structure/curtain{color = "gray"; desc = "lush luxurious velvet curtains from before the war."},/obj/machinery/door/window/survival_pod,/turf/open/floor/carpet/black,/area/shuttle/escape)
+"Tm" = (/obj/structure/chair/middle{dir = 8},/obj/machinery/light/floor,/turf/open/floor/plasteel/f13{icon_state = "greenfull"},/area/shuttle/escape)
+"XL" = (/obj/structure/decoration/clock/active,/turf/closed/wall/f13/vault,/area/shuttle/escape)
+"YS" = (/obj/structure/table/abductor{desc = "After YEARS of research, prototyping, and testing, the brotherhood created the sequel to the table. Advanced flat surface technology at work!"; name = "advanced table"},/obj/structure/window/reinforced/survival_pod{dir = 8},/obj/machinery/computer/shuttle,/turf/open/floor/carpet/black,/area/shuttle/escape)
 
 (1,1,1) = {"
-gwsdsdsdsdgw
-sdvOrJrJeLsd
-sdvWpDpDqRsd
-sdpDpDpDpDsd
-sdUXpDpDUXsd
-gwUXpDpDUXgw
-gBteIIIItegB
-ArArgzxIArAr
-gBVpkKkKVpgB
-gBexpDpDmBdN
-gBKdpDpDyKgB
-gBugpDpDgWgB
-gBVpFuFuVpgB
-ArArgzxIArAr
-gBVpfzkKVpgB
-VpBvbGpDiCVp
-VpBvbGpDGgVp
-VpBvbGpDYOVp
-gBVpcFFuVpgB
-ArArgzxIArAr
-gBVpkKkKVpgB
-WLhLpDpDCAdN
-VphLpDpDQIgB
-WLhLpDpDkRgB
-NjgBgBgBgBgB
+uHitititituH
+itNRQSQSYSit
+itFmgEgEumit
+itgEgEgEgEit
+itmGgEgEmGit
+uHmGgEgEmGuH
+GLyISdSdyIGL
+EZEZCPmyEZEZ
+GLzTKiKizTGL
+GLgfgEgEgsXL
+GLpFgEgEqcGL
+GLfVgEgEIUGL
+GLzTLkLkzTGL
+EZEZCPmyEZEZ
+GLzTJZKizTGL
+zTvQEigENgzT
+zTvQEigErHzT
+zTvQEigEoyzT
+GLzTiQLkzTGL
+EZEZCPmyEZEZ
+GLzTKiKizTGL
+HRpGgEgEkKXL
+zTpGgEgETmGL
+HRpGgEgEpUGL
+svGLGLGLGLGL
 "}
