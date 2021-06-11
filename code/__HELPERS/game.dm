@@ -509,7 +509,9 @@
 
 	if(character.special.total() > 40)
 		message_admins("[key_name_admin(character.ckey)] имеет более 40 очков SPECIAL!!!")
-		return
+		character.adjustBrainLoss(100)
+		character.adjustCloneLoss(100)
+		to_chat(src, "<font color='red'>Die.</font>")
 	if((!GLOB.announcement_systems.len) || (!character.mind))
 		return
 	if((character.mind.assigned_role == "Cyborg") || (character.mind.assigned_role == character.mind.special_role))
