@@ -899,9 +899,9 @@
 			string = pick(
 				"Администратор вышел: [key_name(src)]")
 		else if(!logout && CONFIG_GET(flag/announce_admin_login) && (prefs.toggles & ANNOUNCE_LOGIN))
-//			if(ckey == "Сикей")
-//				string = pick(
-//					"Смешные слова")
+			if(ckey == "Сикей") //Сюда вписать любой сикей
+				string = pick(
+					"Смешные слова") //Сюда вписать любое смешное слово, повторить три строки для получения нужного эффекта
 			else
 				string = pick(
 					"Администратор зашёл: [key_name(src)]")
