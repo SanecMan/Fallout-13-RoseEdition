@@ -104,7 +104,7 @@
 		"в правом кармане" = SLOT_R_STORE,
 		"в сумке" = SLOT_IN_BACKPACK
 	)
-	where = H.equip_in_one_of_slots(heirloom, slots, FALSE) || "at your feet"
+	where = H.equip_in_one_of_slots(heirloom, slots, FALSE) || "под тобой"
 
 /datum/quirk/family_heirloom/post_add()
 	if(where == "в сумке")
