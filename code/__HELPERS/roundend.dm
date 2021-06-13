@@ -315,7 +315,7 @@
 			largest_gang_number = G.members.len
 			largest_gang = G
 			largest_leader = G.leader
-
+	parts += "<meta charset=UTF-8>"
 	parts += "[GLOB.TAB]Раунд длился <B>[DisplayTimeText(world.time - SSticker.round_start_time)]</B>"
 	parts += "[GLOB.TAB]Целостность данного региона <B>[mode.station_was_nuked ? "<span class='redtext'>никакая</span>" : "[popcount["station_integrity"]] процентов"]</B>"
 	parts += "[GLOB.TAB]Торговые Роботы получили крышки в размере <B>[GLOB.vendor_cash]</B>"
