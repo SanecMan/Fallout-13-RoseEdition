@@ -1,3 +1,4 @@
+//Перевести
 #define CASH_CAP_GANG 1
 
 /* exchange rates X * CAP*/

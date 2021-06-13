@@ -11,3 +11,11 @@
 /turf/baseturf_skipover/shuttle
 	name = "Shuttle baseturf skipover"
 	desc = "Acts as the bottom of the shuttle, if this isn't here the shuttle floor is broken through."
+
+/turf/baseturf_skipover/train
+	name = "Train baseturf skipover"
+	desc = "Пробитый пол в поезде мгновенно заменяется этим который заменяется на спрайт двигающегося пола."
+
+/turf/baseturf_skipover/lift
+	name = "Lift baseturf skipover"
+	desc = "Пробитый пол в лифте мгновенно заменяется плиткой."

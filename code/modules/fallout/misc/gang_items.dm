@@ -1,3 +1,4 @@
+//Добавить предметов
 /datum/gang_item
 	var/name
 	var/item_path

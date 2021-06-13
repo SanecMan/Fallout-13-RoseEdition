@@ -1,3 +1,4 @@
+//Заменить перемещение для лифта и для поезда
 /datum/map_template/shuttle
 	name = "Base Shuttle Template"
 	var/prefix = "_maps/shuttles/"
